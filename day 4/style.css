@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    height: 70px;
+    background-color: #000;
+}
+
+ul {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+
+
+a:visited {
+    color: rgb(202, 202, 202);
+}
+
+a:hover {
+    color: aqua;
+}
+
+.bg-img-1,
+.bg-img-2,
+.bg-img-3,
+.bg-img-4,
+.bg-img-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: burlywood;
+}
+
+.bg-img-1 {
+    background-image: url(./images/bergen-sunshine.jpg);
+}
+
+.bg-img-2 {
+    background-image: url(./images/floien.jpg);
+}
+
+.bg-img-3 {
+    background-image: url(./images/bryggen.jpg);
+}
+
+.bg-img-4 {
+    background-image: url(./images/lehmkuhl.jpg);
+}
+
+.bg-img-5 {
+    background-image: url(./images/ponyo.jpg);
+}
+
+h2 {
+    color: darkgoldenrod;
+    font-size: 70px;
+    background-color: black;
+    padding: 20px 30px;
+    border-radius: 5px;
+
+}
+
+.section-info {
+    height: 60vh;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+p {
+    margin-inline: 100px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+span {
+    color: darkorchid;
+}
+
+button {
+    padding: 50px;
+    font-size: 4em;
+    transition: .5s;
+
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px
+}
